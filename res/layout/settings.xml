@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:orientation="vertical"
+        android:padding="15px">
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView
+             	style="@style/normalText"
+             	android:text="Notifications"></TextView>
+            <Button
+            	android:id="@+id/settingsNotifications"
+            	style="@style/button"></Button>
+            </LinearLayout>
+            
+         <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20px">
+            
+            <TextView
+             	style="@style/normalText"
+             	android:text="Account"></TextView>
+            <Button
+            	android:id="@+id/settingsAccount"
+            	android:text="Delete Account"
+            	style="@style/button"></Button>
+            </LinearLayout>
+ </LinearLayout>  

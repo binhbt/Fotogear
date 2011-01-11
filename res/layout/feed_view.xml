@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:paddingTop="5px"
+    android:paddingBottom="5px"
+    android:paddingRight="20px"
+    android:paddingLeft="20px">
+        <ImageView
+            android:layout_height="50px"
+            android:layout_width="50px"
+            android:layout_marginRight="5px"
+            android:id="@+id/feedItemImg" />
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="0px"
+            android:layout_marginLeft="10px"
+            android:layout_weight="1">
+          <TextView
+              android:id="@+id/feedItemUsername"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:textStyle="bold"
+              android:textSize="11px" />
+          <TextView
+              android:id="@+id/feedItemTime"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:textStyle="italic"
+              android:textSize="10px" />
+           <TextView
+                android:id="@+id/feedItemNetwork"
+              	android:layout_height="wrap_content"
+              	android:layout_width="fill_parent"
+              	android:textStyle="italic"
+              	android:textSize="10px" />
+        </LinearLayout>
+</LinearLayout>
